@@ -72,13 +72,13 @@ public class MainActivity extends AppCompatActivity {
         public CharSequence getPageTitle(int position) {
             switch (position) {
                 case 0:
-                    return "Restaurants";
+                    return getString(R.string.section_1);
                 case 1:
-                    return "Sightseeing";
+                    return getString(R.string.section_2);
                 case 2:
-                    return "Accommodation";
+                    return getString(R.string.section_3);
                 case 3:
-                    return "Pubs";
+                    return getString(R.string.section_4);
             }
             return null;
         }

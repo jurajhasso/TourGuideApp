@@ -27,18 +27,18 @@ public class SightseeingFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.location_list, container, false);
 
         final ArrayList<Location> locations = new ArrayList<Location>();
-        locations.add(new Location("Radena's house", "Radena's house", R.drawable.number_one));
-        locations.add(new Location("Church", "Church of the Ascension of St. Cross", R.drawable.number_two));
-        locations.add(new Location("Ondrej Gregor's house", "Ondrej Gregor's house", R.drawable.number_three));
-        locations.add(new Location("Cicmany Castle", "Cicmany Castle", R.drawable.number_four));
-        locations.add(new Location("Radena's house", "Radena's house", R.drawable.number_one));
-        locations.add(new Location("Church", "Church of the Ascension of St. Cross", R.drawable.number_two));
-        locations.add(new Location("Ondrej Gregor's house", "Ondrej Gregor's house", R.drawable.number_three));
-        locations.add(new Location("Cicmany Castle", "Cicmany Castle", R.drawable.number_four));
-        locations.add(new Location("Radena's house", "Radena's house", R.drawable.number_one));
-        locations.add(new Location("Church", "Church of the Ascension of St. Cross", R.drawable.number_two));
-        locations.add(new Location("Ondrej Gregor's house", "Ondrej Gregor's house", R.drawable.number_three));
-        locations.add(new Location("Cicmany Castle", "Cicmany Castle", R.drawable.number_four));
+        locations.add(new Location(getString(R.string.sighteeing_1), getString(R.string.sightseeing_desc_1), R.drawable.number_one));
+        locations.add(new Location(getString(R.string.sightseeing_2), getString(R.string.sightseeing_desc_2), R.drawable.number_two));
+        locations.add(new Location(getString(R.string.sighteeing_3), getString(R.string.sightseeing_desc_3), R.drawable.number_three));
+        locations.add(new Location(getString(R.string.sighteeing_4), getString(R.string.sightseeing_desc_4), R.drawable.number_four));
+        locations.add(new Location(getString(R.string.sighteeing_1), getString(R.string.sightseeing_desc_1), R.drawable.number_one));
+        locations.add(new Location(getString(R.string.sightseeing_2), getString(R.string.sightseeing_desc_2), R.drawable.number_two));
+        locations.add(new Location(getString(R.string.sighteeing_3), getString(R.string.sightseeing_desc_3), R.drawable.number_three));
+        locations.add(new Location(getString(R.string.sighteeing_4), getString(R.string.sightseeing_desc_4), R.drawable.number_four));
+        locations.add(new Location(getString(R.string.sighteeing_1), getString(R.string.sightseeing_desc_1), R.drawable.number_one));
+        locations.add(new Location(getString(R.string.sightseeing_2), getString(R.string.sightseeing_desc_2), R.drawable.number_two));
+        locations.add(new Location(getString(R.string.sighteeing_3), getString(R.string.sightseeing_desc_3), R.drawable.number_three));
+        locations.add(new Location(getString(R.string.sighteeing_4), getString(R.string.sightseeing_desc_4), R.drawable.number_four));
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations);
 
